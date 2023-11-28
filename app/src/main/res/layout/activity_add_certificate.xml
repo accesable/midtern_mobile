@@ -8,7 +8,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="Add Certificate"
+        android:text="Add Or Update Certificate"
         android:background="#22272e"
         android:textSize="25dp"
         android:gravity="center"
