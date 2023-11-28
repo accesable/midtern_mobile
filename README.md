@@ -7,4 +7,4 @@
 - Ngô Trường An - 521H00001
 
 Youtube Project Application Demonstration
-- [title](https://www.youtube.com/watch?v=SebTImq1ZUw)
+- [Our Demo Video](https://www.youtube.com/watch?v=SebTImq1ZUw)
