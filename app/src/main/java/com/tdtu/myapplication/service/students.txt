@@ -1,0 +1,4 @@
+ID,Name,DoB,Email,phoneNumber
+S001,John Doe,1995/04/23,johndoe@example.com,1234567890
+S002,Jane Smith,1996/08/15,janesmith@example.com,0987654321
+S003,Bob Johnson,1997/02/10,bobjohnson@example.com,1230984567

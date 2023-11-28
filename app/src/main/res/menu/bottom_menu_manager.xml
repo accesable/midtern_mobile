@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bottom_student_manager"
+        android:title="Student"
+        android:icon="@drawable/baseline_person_24"/>
+
+    <item
+        android:id="@+id/bottom_certificate_manager"
+        android:title="Certificates"
+        android:visible="false"
+        android:icon="@drawable/cert" />
+    <item
+        android:id="@+id/bottom_add_manager"
+        android:title="Add"
+        android:icon="@drawable/baseline_add_24" />
+
+
+</menu>

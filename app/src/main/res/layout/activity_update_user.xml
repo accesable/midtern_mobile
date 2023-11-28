@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Update Student"
+        android:background="#22272e"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="#D5CECE"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/lavender"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Role"/>
+    <!--on below line we are creating a text view-->
+    <TextView
+        android:id="@+id/idTVStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/idRadioGroup"
+        android:padding="10dp"
+        android:text="Role"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!--on below line we are creating a radio group-->
+    <RadioGroup
+        android:id="@+id/idRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <!--on below line we are creating a radio buttons-->
+        <RadioButton
+            android:id="@+id/idBtnAdminRadio"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="Admin"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/idBtnManagerRadio"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="Manager"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/idBtnEmployeeRadio"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="Employee"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <!--on below line we are creating a text view-->
+    <TextView
+        android:id="@+id/idTVUserStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/idRadioGroup"
+        android:padding="10dp"
+        android:text="Status"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!--on below line we are creating a radio group-->
+    <RadioGroup
+        android:id="@+id/idUserStatusRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <!--on below line we are creating a radio buttons-->
+        <RadioButton
+            android:id="@+id/idBtnActiveRadio"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="Active"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/idBtnLockedRadio"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="Locked"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnUserUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="@color/lavender"
+        android:text="SAVE"/>
+
+</LinearLayout>

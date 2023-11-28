@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#444654"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Update Certificate"
+        android:background="#22272e"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="#D5CECE"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#D5CECE"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Certificate Title"/>
+    <EditText
+        android:id="@+id/etCertTitle"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="35dp"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:inputType="textCapWords"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#D5CECE"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Issue Date"/>
+    <EditText
+        android:id="@+id/etCertIssueDate"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="35dp"
+        android:singleLine="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:imeOptions="actionNext"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/rounded"/>
+    <TextView
+        android:textColor="#D5CECE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Issue Organization"/>
+    <EditText
+        android:id="@+id/etCertIssueOrg"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="35dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="10dp"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"/>
+    <TextView
+        android:textColor="#D5CECE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Certificate Description"/>
+    <EditText
+        android:id="@+id/etCertDes"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:inputType="text"
+        android:background="@drawable/rounded"/>
+    <Button
+        android:id="@+id/btnCertUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="@color/lavender"
+        android:text="SAVE"/>
+
+</LinearLayout>

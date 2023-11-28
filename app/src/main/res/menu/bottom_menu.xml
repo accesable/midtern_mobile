@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bottom_student"
+        android:title="Student"
+        android:icon="@drawable/baseline_person_24"/>
+
+    <item
+        android:id="@+id/bottom_user"
+        android:title="User"
+        android:icon="@drawable/baseline_accessibility_24"
+        />
+
+    <item
+        android:id="@+id/bottom_certificate"
+        android:title="Certificates"
+        android:visible="false"
+        android:icon="@drawable/cert" />
+    <item
+        android:id="@+id/bottom_add"
+        android:title="Add"
+        android:icon="@drawable/baseline_add_24" />
+
+
+</menu>
